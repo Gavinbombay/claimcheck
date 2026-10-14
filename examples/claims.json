@@ -1,0 +1,9 @@
+{
+  "claims": [
+    {"kind": "file_contains", "text": "result file ends GREEN", "path": "run/RESULT.txt", "pattern": "GREEN$"},
+    {"kind": "file_exists", "text": "wrote the rework diff", "path": "run/REWORK_DIFF.md"},
+    {"kind": "tests_passed", "text": "cargo test: 12 passed", "log": "run/cargo-test.log", "passed": 12},
+    {"kind": "tests_passed", "text": "npm test passed", "log": "run/npm-test.log"},
+    {"kind": "max_chars", "text": "self-review under 24,000 chars", "path": "run/RESULT.txt", "max": 24000}
+  ]
+}
